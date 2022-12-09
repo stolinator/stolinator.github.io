@@ -1,0 +1,45 @@
+---
+title: home
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="vertical-flex">
+        <header>
+          <h1>James Stolhammer</h1>
+          <p class="code">[software engineer]</p>
+        </header>
+        <section>
+          <p>
+            I am a tinkerer who learned to code to support my curiosity in technology. I got my start in the world
+            of IT troubleshooting networks, but my interests have extended to projects with Linux, IoT, and machine
+            learning.
+          </p>
+          <p>
+            I'm always excited to talk about tech! Feel free to connect with me on <br />
+            <a class="button" href="https://www.github.com/stolinator">github</a> or
+            <a class="button" href="https://www.linkedin.com/in/james-stolhammer">linkedin</a>
+          </p>
+        </section>
+        <div>
+          <nav class="fixed-bottom">
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if item.link == page.url %} class="button button-primary" {% else %} class="button" {% endif %}>{{ item.name }}</a>
+            {% endfor %}
+          </nav>
+        </div>
+      </div>
+    {% include canvas.html %}
+  </body>
+</html>

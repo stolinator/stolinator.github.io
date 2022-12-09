@@ -1,0 +1,23 @@
+<div class="container">
+  <nav>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if item.link == page.url %} class="button button-primary" {% else %} class="button" {% endif %}>{{ item.name }}</a>
+    {% endfor %}
+    <a id="connect-btn" class="button">connect</a>
+  </nav>
+  <hr />
+</div>
+<div id="modal" class="hidden">
+  <div><!-- (flex) horizontally center buttons -->
+    <div><!-- absorb all height -->
+      <div><!-- (flex) vertically center buttons -->
+        <div><!-- (flex) vertical flex buttons -->
+          <h3>connect</h3>
+          <a href="https://www.linkedin.com/in/james-stolhammer" class="button">linkedin</a>
+          <a href="https://github.com/stolinator" class="button">github</a>
+          <button class="button-primary">close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
