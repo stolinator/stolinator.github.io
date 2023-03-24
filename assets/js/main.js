@@ -69,28 +69,28 @@ class Word {
 window.onload = () => {
   const paragraphs = [];
   const words = [
-    'vim', 'react', 'nodejs', 'python', 'jquery', 'c', 'bootstrap',
-    'beautiful soup', 'javascript', 'css', 'pandas', 'scikit learn',
+    'vim', 'React', 'nodejs', 'python', 'jquery', 'C', 'bootstrap',
+    'beautiful soup', 'javascript', 'CSS', 'pandas', 'scikit learn',
     'mongodb', 'sqlalchemy', 'flask', 'typescript', 'nmap',
-    'osi model', 'tcp/ip', 'http', 'sockets', 'bash', 'machine learning',
+    'osi model', 'TCP/IP', 'HTTP', 'sockets', 'bash', 'machine learning',
     'numpy', 'scipy', 'jupyter', 'algorithms', 'c++', 'statistics',
-    'java', 'web scraping', 'ruby', 'jekyll', 'html', 'sql',
+    'java', 'web scraping', 'ruby', 'jekyll', 'HTML', 'SQL',
     'currying', 'agile development', 'heap', 'queue', 'time complexity',
     'stack', 'types', 'struct', 'data visualization', 'text mining',
-    'cat 5e', 'hf propogation', 'sdr', 'software defined networking',
+    'cat 5e', 'hf propogation', 'SDR', 'software defined networking',
     'optimization', 'categorical', 'limit', 'finite', 'discrete',
     'continuous', 'ordinal', 'markov chain', 'entropy', 'linguistics',
-    'nlp', 'neural networks', 'git', 'revision control', 'bsd',
+    'nlp', 'neural networks', 'git', 'revision control', 'BSD',
     'multipath', 'attenuation', "ohm's law", 'virtualization',
-    'decorator', 'closure', 'posix', 'makefile', 'utf-8', 'ssl',
+    'decorator', 'closure', 'posix', 'makefile', 'utf-8', 'SSL',
     'ssh', 'tmux', 'multiplex', 'aws', 'cloud computing',
-    'scalable infrastructure', 'determination', 'latex', 'compile',
+    'scalable infrastructure', 'determination', 'LaTex', 'compile',
     'sed', 'grep', 'awk', 'architecture', 'nasm', 'assembly',
     'boot sector', 'big endian', 'scalar', 'literal', 'rg58',
     'coax', 'bnc', 'vswr', 'protocol', 'concurrency', 'parallel',
     'netmask', 'subnet', 'public', 'private', 'namespace', 'interface',
     'compression', 'encryption', 'asynchronous', 'npm', 'babel',
-    'webpack', 'nose', 'jest', 'unittest', sass
+    'webpack', 'nose', 'jest', 'unittest', 'sass'
   ];
   const canvas = document.getElementsByClassName('canvas')[0];
 

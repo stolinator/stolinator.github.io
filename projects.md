@@ -7,6 +7,13 @@ layout: default
 
 <hr />
 
+### [w3se](https://github.com/stolinator/w3se)
+
+<img type="image/webp" src="https://raw.githubusercontent.com/stolinator/w3se/main/media/demo.webp" />
+
+A PyQt6 application for manipulating lzf compressed XML save files. I used
+BeautifulSoup for parsing and mapping edits back onto the XML structure.
+
 ### [retail page](https://github.com/friendsFEC/Uniqlo-Clone-Quddad)
 
 A front end showcase for an e-commerce site built with React. I contributed

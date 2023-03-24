@@ -2,3 +2,5 @@
 _site
 _pginfo
 
+# npm
+node_modules

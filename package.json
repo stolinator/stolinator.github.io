@@ -1,0 +1,18 @@
+{
+  "name": "stolio",
+  "version": "1.0.0",
+  "description": "My Jekyll-based website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "jekyll serve --port=8000 --livereload",
+    "build": "npx babel assets/js/main.js > assets/js/script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
