@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "jekyll serve --port=8000 --livereload",
-    "build": "npx babel assets/js/main.js > assets/js/script.js",
+    "build": "npx babel --minified --presets=@babel/preset-env assets/js/main.js -o assets/js/script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
